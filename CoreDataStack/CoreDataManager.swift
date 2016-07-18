@@ -66,7 +66,7 @@ public class CoreDataManager {
         return persistentStoreCoordinator
     }()
 
-    // MARK: - Helper Methods
+    // MARK: - Computed Properties
 
     private var persistentStoreURL: NSURL {
         // Helpers
